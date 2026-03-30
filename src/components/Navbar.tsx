@@ -19,10 +19,8 @@ const Navbar = () => {
       autoResize: true,
       ignoreMobileResize: true,
     });
-
     smoother.scrollTop(0);
     smoother.paused(true);
-
     let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
       let element = elem as HTMLAnchorElement;
@@ -39,21 +37,12 @@ const Navbar = () => {
       ScrollSmoother.refresh(true);
     });
   }, []);
+
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
-        </a>
-        <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
-          className="navbar-connect"
-          data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/akashrmalhotra
-        </a>
+        <a href="/#" className="navbar-title" data-cursor="disable">RC</a>
+        <a href="https://www.linkedin.com/in/ahmedkaludi/" className="navbar-connect" data-cursor="disable" target="_blank" rel="noreferrer">linkedin.com/in/ahmedkaludi</a>
         <ul>
           <li>
             <a data-href="#about" href="#about">
@@ -72,7 +61,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
       <div className="nav-fade"></div>

@@ -13,14 +13,14 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/premiere.png",
+  "/images/photoshop.png",
+  "/images/canva.png",
+  "/images/capcut.png",
+  "/images/figma.png",
+  "/images/aftereffects.png",
+  "/images/lightroom.png",
+  "/images/filmora.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -60,7 +60,6 @@ function SphereGeo({
           -50 * delta * scale
         )
       );
-
     api.current?.applyImpulse(impulse, true);
   });
 
@@ -151,6 +150,7 @@ const TechStack = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const materials = useMemo(() => {
     return textures.map(
       (texture) =>
@@ -168,8 +168,7 @@ const TechStack = () => {
 
   return (
     <div className="techstack">
-      <h2> My Techstack</h2>
-
+      <h2>My Toolstack</h2>
       <Canvas
         shadows
         gl={{ alpha: true, stencil: false, depth: false, antialias: false }}

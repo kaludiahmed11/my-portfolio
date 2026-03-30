@@ -85,22 +85,22 @@ const WhatIDo = () => {
               </svg>
             </div>
             <div className="what-corner"></div>
-
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>VIDEO & CONTENT</h3>
+              <h4>Reels, Promos & Cinematic Edits</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                From short-form reels to long-form promos — I craft videos that
+                grab attention, tell your story, and drive action. Every frame
+                is edited with intent.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Premiere Pro</div>
+                <div className="what-tags">After Effects</div>
+                <div className="what-tags">CapCut</div>
+                <div className="what-tags">HeyGen</div>
+                <div className="what-tags">ElevenLabs</div>
+                <div className="what-tags">DaVinci Resolve</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +124,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>DESIGN & BRANDING</h3>
+              <h4>Visuals That Stop the Scroll</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Logos, posters, social media creatives, and full brand kits —
+                I design visuals that make your brand impossible to ignore.
+                Built for impact, crafted for identity.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Photoshop</div>
+                <div className="what-tags">Illustrator</div>
+                <div className="what-tags">Canva Pro</div>
+                <div className="what-tags">Figma</div>
+                <div className="what-tags">Lightroom</div>
+                <div className="what-tags">Brand Strategy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -156,7 +156,6 @@ function handleClick(container: HTMLDivElement) {
   container.classList.remove("what-sibling");
   if (container.parentElement) {
     const siblings = Array.from(container.parentElement.children);
-
     siblings.forEach((sibling) => {
       if (sibling !== container) {
         sibling.classList.remove("what-content-active");

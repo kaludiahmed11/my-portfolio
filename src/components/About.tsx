@@ -6,11 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          I'm Ahmed Kaludi — a 18 year old Video Editor, Graphic Designer, and Social Media
+          Manager based in Surat, India. I'm the Founder of The Reach Crafter,
+          a creative content agency helping local businesses, startups,
+          restaurants, and cafes grow their digital presence. From reels to
+          brand identity, I craft content that converts. Currently pursuing BCA
+          from C.B. Patel Computer College, Surat.
         </p>
       </div>
     </div>

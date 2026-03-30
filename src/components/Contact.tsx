@@ -10,69 +10,44 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Connect</h4>
             <p>
-              <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — akashrmalhotra
+              <a href="https://www.linkedin.com/in/ahmedkaludi/" target="_blank" rel="noreferrer" data-cursor="disable">
+                LinkedIn — ahmedkaludi
+              </a>
+            </p>
+            <p>
+              <a href="mailto:Kaludiahmed00@gmail.com" data-cursor="disable">
+                Kaludiahmed00@gmail.com
+              </a>
+            </p>
+            <p>
+              <a href="tel:+919033524584" data-cursor="disable">
+                +91 90335 24584
               </a>
             </p>
             <h4>Education</h4>
-            <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
-            </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
-            </p>
+            <p>Pursuing BCA, C.B. Patel Computer College — Surat</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
-              href="https://github.com/akashrmalhotra"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              GitHub <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
+            <a href="https://www.linkedin.com/in/ahmedkaludi/" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
               LinkedIn <MdArrowOutward />
             </a>
-            <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
+            <a href="https://www.youtube.com/@Mindifyy" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
               YouTube <MdArrowOutward />
             </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
+            <a href="https://www.instagram.com/thereachcrafter/" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
               Instagram <MdArrowOutward />
+            </a>
+            <a href="https://wa.me/919033524584" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
+              WhatsApp <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Crafted with intent <br /> by <span>Ahmed Kaludi</span>
             </h2>
             <h5>
-              <MdCopyright /> 2026
+              <MdCopyright /> 2025 The Reach Crafter
             </h5>
           </div>
         </div>

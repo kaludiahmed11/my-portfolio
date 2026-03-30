@@ -15,58 +15,46 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Founder & Creative Head</h4>
+                <h5>The Reach Crafter · Surat</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025 — NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Founded The Reach Crafter in 2025 — a creative content agency
+              offering Social Media Management, Graphic Design, Video Editing,
+              Brand Identity, Photography, and Scripting. Currently serving
+              local businesses, startups, restaurants and cafes across Surat.
+              Clients include Yes Academy, Yasin Janoo Realty, and Well Academy.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Video Editor & Content Manager</h4>
+                <h5>Well Academy · Surat</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023 — NOW</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Currently handling end-to-end video editing, video shoots, and
+              all types of content management for Well Academy. Producing
+              educational content, managing social media presence, and creating
+              promotional videos and creatives for the organization.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>BCA Student</h4>
+                <h5>C.B. Patel Computer College · Surat</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>PURSUING</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Currently pursuing Bachelor of Computer Applications (BCA) from
+              C.B. Patel Computer College, Surat. Combining academics with
+              real-world creative agency work at The Reach Crafter.
             </p>
           </div>
         </div>
